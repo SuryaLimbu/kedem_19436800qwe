@@ -1,0 +1,119 @@
+.container-main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container-main a {
+    color: black;
+}
+
+.video-content {
+    display: flex;
+    width: 100%;
+}
+
+.content-for-tutorials {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    margin-top: 1%;
+    border: 2px dotted;
+    padding: 1%;
+}
+
+.html-lession-header h2 {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 1% 0 1% 0;
+}
+
+.content-header {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+/* for html tutorials*/
+.html-lession {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1%;
+}
+
+.html-lession-videos {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 1%;
+
+}
+
+.html-video1 {
+    width: 100%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid;
+}
+
+.main-video {
+    width: 80%;
+    height: 600px;
+    margin-left: 2%;
+
+}
+
+#main-videos {
+    width: 100%;
+    height: 500px;
+}
+
+embed {
+    width: 90%;
+    height: 100%;
+}
+
+/* for css tutorials*/
+.css-lession {
+    display: flex;
+    flex-direction: column;
+}
+
+.css-lession-vedios {
+    display: flex;
+
+
+}
+
+.css-video1 {
+    width: 25%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:600px) {
+    .container-main {
+        flex-direction: column;
+        width: 96%;
+
+    }
+
+    .html-lession {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-video {
+        width: 100%;
+    }
+
+    .html-lession-videos {
+        width: 100%;
+    }
+
+    .video-content {
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,163 @@
+/*job navigation fixed*/
+.form-search {
+    color: white;
+    padding-left: 10px;
+    border: 1px double;
+    height: 20px;
+    font-size: 16px;
+    margin-top: 1%;
+    width: 70%;
+
+}
+
+.togglearea label {
+    display: flex;
+    background-color: white;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+}
+/* jobs main body section*/
+.container-main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+}
+
+.main-content h3 {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.jobs {
+    display: flex;
+}
+
+.compare-web-jobs {
+    width: 33%;
+    background-color: #F1F1F1;
+    margin-right: 1%;
+    padding: 1%;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.compare-web-jobs .jobs-details ul {
+    border: 1px solid;
+}
+
+.compare-web-jobs .jobs-details li {
+    display: inline-block;
+    width: 96%;
+    padding: 1%;
+}
+
+.compare-web-jobs img {
+    width: 100%;
+    border-radius: 0.5%;
+}
+
+.compare-web-jobs li {
+    float: left;
+}
+
+.apply-job-form {
+
+    background-color: #f2f2f2;
+    width: 98%;
+    margin-top: 1%;
+    border-radius: 5px;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+
+}
+
+.apply-job-form h3 {
+    width: 101%;
+    text-align: center;
+    background-color: firebrick;
+    padding: 1% 0 1% 0;
+    margin: 0;
+    margin-left: -1%;
+    color: white;
+}
+
+.form {
+    width: 100%;
+
+}
+
+input[type=text],
+textarea {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    display: flex;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-right: 5%;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width:600px) {
+    .container-main {
+        flex-direction: column;
+    }
+
+    .jobs {
+        flex-direction: column;
+    }
+
+    .compare-web-jobs {
+        width: 98%;
+        margin-bottom: 1%;
+    }
+
+    input[type=submit] {
+        width: 20%;
+        margin-top: 0;
+        height: 40px;
+    }
+
+    input[type=text],
+    textarea {
+        width: 90%;
+        margin-top: 0;
+    }
+}

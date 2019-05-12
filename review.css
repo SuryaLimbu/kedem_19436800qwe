@@ -1,0 +1,50 @@
+.container-main {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.article,
+.article1 {
+    width: 32%;
+    padding: 1%;
+
+    margin-bottom: 1%;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.article1 {
+    border-left: none;
+
+}
+
+.article h2 {
+    text-transform: uppercase;
+    background-color: #0F76AE;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    color: white;
+}
+
+.article1 h2 {
+    text-transform: uppercase;
+    background-color: #0F76AE;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .container-main {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .article,
+    .article1 {
+        width: 100%;
+
+    }
+}

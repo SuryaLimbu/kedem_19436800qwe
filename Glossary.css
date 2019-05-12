@@ -1,0 +1,52 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    ;
+
+
+}
+
+.header {
+    text-align: center;
+}
+
+.term1 {
+    background-color: #c6c4c5;
+    display: flex;
+
+    margin-bottom: 1%;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.term-img {
+    width: 20%;
+}
+
+.term-img img {
+
+    width: 90%;
+}
+
+.term-brief {
+    width: 70%;
+}
+
+@media screen and (max-width:700px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .term-img {
+        width: 100%;
+    }
+
+}
